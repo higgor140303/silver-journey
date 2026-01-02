@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Gowun+Dodum&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gabarito:wght@400..900&family=Gowun+Dodum&family=Lexend+Deca:wght@100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-image: url(flores.jpg);
+    z-index: -100;
+    height: 100%;
+}
+
+header{
+   z-index: 200; 
+   color: white;
+   background-color: rgba(255, 252, 252, 0.075);
+   top: 0;
+   position: fixed;
+   width: 100%;
+   display: grid;
+   backdrop-filter: blur(7px);
+}
+   
+
+a#titulo{
+    color: white;
+    display: grid;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    font-family: "Gabarito", sans-serif;
+    width: 10%;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: "Gabarito", sans-serif;
+   
+}
+
+#menu{
+   
+    width: auto;
+    display: inline;
+    display: grid;
+    justify-self:center;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    font-family: "Gabarito", sans-serif;
+
+}
+
+.contato {
+    z-index: 1000;
+    position: fixed;
+    justify-self: right;
+    margin-right: 50px;
+    margin-top: 33px;
+    text-decoration: none;
+
+}
+
+.contato a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Gabarito", sans-serif;
+}
+
+.contato a:hover{
+    background-color: rgb(29, 133, 19);
+    color: black;
+    font-family: "Gabarito", sans-serif;
+}
+
+.intro{
+    z-index: 1000;
+    color: white;
+    margin-top: 200px;
+    
+}
+
+.intro h2{
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+   text-decoration: underline;
+   padding-left: 20px;
+   font-family: "Gabarito", sans-serif;
+
+}
+
+#identidade{
+    font-size: 22px;
+    padding-left: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: "Gabarito", sans-serif;
+}
+
+#valores{
+    color: white;
+    font-size: 60px;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    font-family: "Gabarito", sans-serif;
+}
+
+#servicos{
+ 
+}
+
+.tabela{
+    color: white;
+    text-align: center;
+    
+    font-size: 22px; 
+    font-family: "Gabarito", sans-serif;
+    background-color: rgba(255, 254, 254, 0.158);
+    backdrop-filter: blur(7px);
+    border-radius: 5px;
+    border-top: 2px solid rgba(250, 250, 250, 0.911);
+    border-left: 2px solid rgba(250, 250, 250, 0.911);
+    justify-self: center
+   
+
+}
+
+.tabela td,th{
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+
+.sub{
+    color: white;
+    justify-self: center;
+}
+
+#pe{
+    background-color: rgba(0, 0, 0, 0.63);
+    z-index: 201;
+   padding: 10px;
+    margin: 0;
+   bottom: 0;
+   position: relative;
+}
+
+.social{
+  text-align: center;
+}
+
+.face{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    
+}
+
+.fim{
+    color: white;
+    text-align: center;
+    
+}
+
+
